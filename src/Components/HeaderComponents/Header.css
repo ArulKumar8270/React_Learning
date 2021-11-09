@@ -1,0 +1,10 @@
+.menu {
+    margin-top: 0%;
+}
+.addMenu {
+    display: inline-flex;
+    margin:0px 0px 10px 0px;
+}
+.addMenu input {
+    margin: 0px  10px;
+}
