@@ -8,7 +8,8 @@ export default function Products(props) {
                     <h4 className="card-title">Product Name : {props.ProductList.productName}</h4>
                     <p className="card-text">Product Price : {props.ProductList.productPrice}</p>
                     <p className="card-text">Product Deiscription : {props.ProductList.productdiscription}</p>
-                    <a href="#" className="btn btn-primary">View More</a>
+                    <a href="#" className="btn btn-primary me-3">Delete</a>
+                    <a href="#" className="btn btn-primary">Edit</a>
                 </div>
             </div>
         </div>

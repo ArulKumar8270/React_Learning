@@ -1,0 +1,17 @@
+.cardimg {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 5px;
+}
+.UserDetails {
+    box-shadow: 0px 0px 10px 0px #ebebeb;
+    padding: 15px;
+}
+.UserDetails h5 {
+    font-size: 18px;
+    margin: 24px;
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+}
+

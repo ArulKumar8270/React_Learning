@@ -7,18 +7,19 @@ function ProductsAdd(props) {
     return (
         <>
             <div className="addMenu">
-                <input type="text" name="productName" placeholder="Product Name" value={productName} onChange={(text)=>{
+                <input type="text" name="productName" placeholder="Product Name" id="name" value={productName} onChange={(text)=>{
                     setproductName(text.target.value);
                     console.log(setproductName);
                 }}/>
-                <input type="text" name="productPrice" placeholder="Price" value={productPrice} onChange={(text)=>{
+                <input type="text" name="productPrice" placeholder="Price" id="price" value={productPrice} onChange={(text)=>{
                     setproductPrice(text.target.value)
                 }} />
-                <input type="text" name="discription" placeholder="Discription" value={productdiscription} onChange={(text)=>{
+                <input type="text" name="discription" placeholder="Discription" id="discription" value={productdiscription} onChange={(text)=>{
                     setproductdiscription(text.target.value)
                 }}/>
                 <button type="button" className="btn btn-primary" onClick={()=>{
                     const productobj={
+
                         productName:productName,
                         productPrice:productPrice,
                         productdiscription:productdiscription,
